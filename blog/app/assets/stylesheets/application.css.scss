@@ -155,7 +155,7 @@ input[type="text"], input[type="email"], input[type="password"], textarea{
 	margin: .5em 0 2em 0;
 }
 textarea{
-	min-height: 20 em;
+	min-height: 20em;
 }
 
 input[type="submit"], .button{
@@ -178,3 +178,5 @@ input[type="submit"], .button{
 @import 'welcome';
 //import layout for articles
 @import 'posts_projects';
+//pygments gem css 
+@import 'pygments';
