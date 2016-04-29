@@ -37,8 +37,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#some gems I added for the project
 gem 'pygments.rb', '~> 0.6.3'
 gem 'redcarpet', '~> 3.3.4'
+gem 'friendly_id', '~> 5.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
