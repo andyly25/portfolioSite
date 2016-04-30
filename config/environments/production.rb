@@ -78,8 +78,8 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   #setting up sendgrid
-  config.action_mailer.default_url_options ={ host: 'https://radiant-savannah-63811.herokuapp.com'}
-  config.adction_mailer.delivery_method = :smtp
+  config.action_mailer.default_url_options = { host: 'https://radiant-savannah-63811.herokuapp.com' }
+  config.action_mailer.delivery_method = :smtp
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
     :port           => '587',
