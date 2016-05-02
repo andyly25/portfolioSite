@@ -9,6 +9,10 @@
     <%= markdown @post.content %>
   </div>
   
+  <div id="image_styling">
+    <%= image_tag @post.image.url(:medium) %>
+  </div>
+  
   <% if user_signed_in? %>
     <div id="admin_links">
       <%= link_to "Edit Article", edit_post_path(@post) %>
