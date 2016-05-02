@@ -5,6 +5,7 @@
     <p>I'm a developer living in Milpitas, California.</p>
     <p>I'm a recent graduate from University of California Santa Cruz.</p>
     <p>At the moment you can find me practicing and adding code on my <a href="https://github.com/birisora" target="_blank">Github</a> repository.</p>
+    <img src = <%= asset_path('andyLyProfile.jpg') %>/>
   </div>
   <div class="col-2 homepage_content">
     <h2>Stuff I've Written</h2>
@@ -14,7 +15,7 @@
       <h3><a href="#"><%= link_to post.title, post %></a></h3>
       <p class="date"><%= post.created_at.strftime("%A, %b %d") %></p>
     <%end%>
-  
+    
   </div>
   <div class="col-3 homepage_content">
     <h2>Stuff I've Built</h2>
