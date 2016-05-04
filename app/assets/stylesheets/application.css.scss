@@ -99,6 +99,10 @@ hr{
 	border-top: 2px solid $highlight;
 	margin: 2rem 0;
 }
+img{
+	max-width: 100%;
+	max-height: auto;
+}
 
 //editting the header of website
 #main_navigation{
