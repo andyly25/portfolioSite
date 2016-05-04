@@ -8,11 +8,13 @@
   <div id="content">
     <%= markdown @post.content %>
   </div>
-  
+</div>
+
   <div id="image_styling">
-    <%= image_tag @post.image.url(:medium) %>
+    <%= image_tag @post.image.url(:large) %>
   </div>
-  
+
+<div id="post_show_content" class="skinny_wrapper ">
   <% if user_signed_in? %>
     <div id="admin_links">
       <%= link_to "Edit Article", edit_post_path(@post) %>
