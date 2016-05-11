@@ -1,4 +1,4 @@
-<div id="page_show_content" class="skinny_wrapper wrapper_padding">
+<div id="post_show_content" class="skinny_wrapper wrapper_padding">
   <header>
     <h1><%= @bio.title %></h1>
     <hr>
@@ -13,7 +13,7 @@
     <%= image_tag @bio.image.url(:large) %>
   </div>
 
-<div id="page_show_content" class="skinny_wrapper ">
+<div id="post_show_content" class="skinny_wrapper ">
   <% if user_signed_in? %>
     <div id="admin_links">
       <%= link_to "Edit Article", edit_bio_path(@bio) %>
@@ -23,7 +23,7 @@
 
   <hr>  
   <div id="share_box">
-    <p>Share The <%= @bio.title %></p>
+    <p>Share <%= @bio.title %></p>
     <!--Twitter -->
     <a onclick="javascript:window.open('http://twitter.com/share?text=<%= @bio.title%> by @andyjly - &amp;url=<%= url_for([@bio, {only_path: false}]) %>', '_blank', 'width=800, height=500, top=200, left=300');void(0);">
       <i class="fa fa-twitter"></i>
