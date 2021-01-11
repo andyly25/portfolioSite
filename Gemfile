@@ -39,7 +39,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 #some gems I added for the project, go to their github page for instructions to use
 gem 'pygments.rb', '~> 0.6.3'
-gem 'redcarpet', '~> 3.3.4'
+gem 'redcarpet', '~> 3.5.1'
 gem 'friendly_id', '~> 5.1'
 gem 'will_paginate', '~> 3.1'
 gem 'mail_form', '~> 1.5', '>= 1.5.1'
