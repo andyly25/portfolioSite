@@ -1,5 +1,7 @@
 A really old portfolio site found at: https://andylyportfolio.herokuapp.com/
 
+Will probably make a new one eventually
+
 # Planning our application
 1. Answer Questions
  - What are we building?
